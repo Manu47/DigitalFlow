@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Slab:100,400');
+
+body{
+	padding-top: 0px;
+	font-family: "Roboto Slab", sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	position: relative;
+}
+/*img{
+	max-width: 200px;
+}*/
+
+.navbar{
+	border-radius: 0;
+	border:0;
+	border-bottom:1px solid #3852bd;
+}
+.navbar-brand
+{
+	color:#3852bd !important;
+}
+header .navbar-brand h1{
+	font-size: 16px;
+	margin-top: 5px;
+	font-weight: 500;
+	padding-left: 10px;
+}
+/*header .container .navbar-toggle{
+	background-color: ;
+}*/
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: #3852bd;
+}
+/*.menu-color{
+	background-color: #526ACC;
+
+}*/
+
+
+@media only screen and (max-width:768px) {
+	header .navbar-collapse.in{
+	background-color: rgba(0,0,0,.1);
+	}
+}
+
+/*#mission{
+	background-color: #E4D29D;
+	background-image:linear-gradiant(to bottom, #eef08a, #819a2d);
+}*/
+.well{
+	text-align: center;
+	padding-top:0px;
+	margin: -10px 0 -20px 0;
+	border-radius: 0;
+	border:0;
+	/*border-top:1px solid #3852bd;*/
+}
+
+.nav a:hover {
+    border-top: 1px solid #3852bd;
+    margin-top: 0px;
+   
+}
+.well h2{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	
+}
+.features{
+	text-align: center;
+	margin: 5px 0;
+}
+.page{
+	padding: 30px 0 15px 0;
+}
+.page h3{
+	text-align: center;
+	margin-bottom: 30px;
+	color:#526ACC ;
+	font-size: 16px;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#features img.icon{
+	display: block;
+	width: 80px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+#safehands img.icon{
+	display: block;
+	width: 80px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+@media only screen and (max-width: 450px) and (max-width: 768px){
+	
+	#features img.icon{
+		display: block;
+		width: 100px;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		
+	}
+	
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Open Sans",sans-serif;
+	font-weight: 100;
+	margin:10;
+}
+footer{
+	padding-top: 20px;
+}
+footer .copy{
+	padding-top:20px;
+}
+footer .navbar-default{
+	background: transparent;
+	border-bottom: 0;
+}
+
